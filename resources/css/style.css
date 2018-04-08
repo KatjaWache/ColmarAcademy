@@ -1,0 +1,57 @@
+/*Universal styles*/
+body {
+  font-family: Helvetica;
+}
+
+.flex {
+  display: flex;
+}
+
+/*header and navigation*/
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  border-bottom: solid 1px #c6c1c1;
+  background-color: white;
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+nav div {
+  display: flex;
+  align-items: center;
+  }
+
+nav div {
+  height: 32px;
+}
+nav img {
+  padding: 0px 0px 0px 24px;
+}
+ul li {
+  display: inline;
+}
+.main li {
+  padding: 0px 8px 0px 0px;
+}
+.main {
+  padding: 0px 24px 0px 0px;
+}
+/*Main-Banner*/
+
+.main-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex img {
+  width: 60%;
+  padding: 32px 24px;
+
+}
