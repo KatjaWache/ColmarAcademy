@@ -44,8 +44,8 @@ nav div {
 nav div {
   height: 32px;
 }
-nav img {
-  padding: 0px 0px 0px 24px;
+.academy-title img {
+  padding: 0 0 0 24px;
 }
 
 ul li {
@@ -67,15 +67,16 @@ ul li {
 .main-banner {
   position: relative;
   width: 40%;
+
 }
- img {
+ .flex img {
   width: 60%;
   margin: 32px 24px;
 }
-.main-banner span {
+.main-banner .button {
   background-color: grey;
   color: white;
-  padding:8px 0px 8px 0px;
+  padding:8px 0px;
   position: absolute;
   text-align: center;
   width: 15rem;
