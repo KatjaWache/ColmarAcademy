@@ -59,25 +59,43 @@ ul li {
 }
 /*Main-Banner*/
 
-.flex {
+.container1 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.main-banner {
-  position: relative;
-  width: 40%;
+
 
 }
- .flex img {
+.item1 {
   width: 60%;
+}
+
+.item2 {
+flex: 1;
+flex-direction: column;
+}
+
+.item2-a {
+flex: 1;
+}
+
+.item2-b {
+flex: 1;
+}
+
+.item2-c {
+flex: 1;
+}
+
+ img  .item1 {
+  width: : 60%;
   margin: 32px 24px;
 }
-.main-banner .button {
+
+
+/*.item4.button {
   background-color: grey;
   color: white;
   padding:8px 0px;
   position: absolute;
   text-align: center;
   width: 15rem;
-}
+}*/
