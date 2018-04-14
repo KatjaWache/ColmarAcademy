@@ -111,23 +111,34 @@ padding: 32px 24px;
   padding: 0px 24px;
   margin: 0px;
 }
-.item2-2 {
 
+.item2-2 {
+  width: 40%;
 }
 
 .item2-2 img {
-  width: 30%;
+  width: 35%;
   height: auto;
 }
-item2-2-a {
 
-
+.item2-2-a {
+  display: flex;
+  align-items: center;
 }
 
-.item2-4 {
-
+.item2-3-b {
+  display: flex;
+  align-items: center;
 }
 
+.item2-4-c {
+  display: flex;
+  align-items: center;
+}
+
+.item-description {
+flex-direction: column;
+}
 
 /*Responsive-design*/
 
