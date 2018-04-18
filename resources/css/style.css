@@ -14,7 +14,7 @@ h2 {
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 1;
-  padding: 1em 0em 2em 0em;
+  padding: 1em 0em 1em 0em;
 }
  p {
    font-weight: normal;
@@ -166,18 +166,27 @@ padding: 8px 0px;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
-
+margin: 0 4rem;
 
 }
 
 .course-items {
   max-width: 30%;
-
+  margin: 1rem;
+  background-color: white;
   }
 
   .course-items img {
     max-width: 100%;
     height: auto;
+}
+.course-description {
+  padding: 1rem;
+}
+
+.course-description h3 {
+  text-transform: uppercase;
+  padding: 0 0 1rem 0;
 }
 
 
