@@ -149,6 +149,38 @@ flex-direction: column;
 padding: 8px 0px;
 }
 
+/*container3*/
+
+.courses {
+  margin: auto;
+  max-width: 1280px;
+  background-color: #D1D1D1;
+}
+
+.course-heading {
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.course-list {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+
+}
+
+.course-items {
+  max-width: 30%;
+
+  }
+
+  .course-items img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 /*Responsive-design*/
 
 /*Navigation*/
@@ -213,7 +245,9 @@ nav.mobile  {
     display: none;
   }
 /*--container1--*/
-
+.main-container {
+  max-width: 100%;
+}
 .container1 {
     flex-direction: column;
     max-width: 100%;
