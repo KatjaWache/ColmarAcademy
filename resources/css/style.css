@@ -16,7 +16,7 @@ h2 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
-  line-height: 1;
+  line-height: 1.5;
   padding: 1em 0em 1em 0em;
 }
  p {
@@ -26,11 +26,34 @@ h2 {
    line-height: 1.5;
    padding: 0.5em 0em 0.5em 0em;
  }
+ a {
+   text-decoration: none;
+   color: #424242;
+ }
 
+ a:link {
+     background-color: none;
+ }
+
+ a:visited {
+     background-color: none;
+ }
+
+ a:hover {
+     text-decoration: underline;
+
+ }
+
+a:active {
+     border: 1px dotted;
+     border-radius: 2px;
+     padding: 2px;
+ }
 
 /*header and navigation*/
 .moreweight {
   font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
 }
 
 nav {
@@ -47,6 +70,12 @@ nav div {
 nav div {
   height: 32px;
 }
+.academy-title {
+  font-size: 1.75rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
 .academy-title img {
   padding: 0 0 0 24px;
 }
@@ -92,14 +121,37 @@ max-width: 25%;
 
 button {
 text-align: center;
-background-color: 3B3B3B;
+text-decoration: none;
+background-color: #3B3B3B;
 color: white;
 padding:1rem;
 width: 100%;
 border: none;
+border-style: none;
 text-transform: uppercase;
+font-family: 'Quicksand', sans-serif;
+font-size: 1.3rem;
+font-weight: 500;
+border-radius: 2px;
+cursor: pointer;
+transition: all 0.5s;
+outline: none;
+
 }
 
+button:hover {
+  background-color: #696969;
+
+}
+
+button:focus {
+  outline: 1px dotted;
+  background-color: #696969;
+}
+
+ button:visited {
+
+ }
 
  /*container2*/
 
@@ -137,15 +189,35 @@ text-transform: uppercase;
   align-items: center;
 }
 
+.item2-2-a:hover {
+  background-color: #C0C0C0;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 2s;
+}
+
 .item2-3-b {
   display: flex;
   align-items: center;
-  padding: 16px 0px;
+
+}
+.item2-3-b:hover {
+  background-color: #C0C0C0;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 2s;
 }
 
 .item2-4-c {
   display: flex;
   align-items: center;
+}
+
+.item2-4-c:hover {
+  background-color: #C0C0C0;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 2s;
 }
 
 .item-description {
@@ -178,6 +250,7 @@ padding-bottom: 2rem;
   max-width: 30%;
   margin: 1rem;
   background-color: white;
+  box-shadow: 5px 10px 18px #3B3B3B;
   }
 
   .course-items img {
@@ -185,7 +258,7 @@ padding-bottom: 2rem;
     height: auto;
 }
 .course-description {
-  padding: 1rem;
+  padding: 0rem 1rem 1rem 1rem;
 }
 
 .course-description h3 {
@@ -203,12 +276,20 @@ padding-bottom: 2rem;
  align-items: center;
 }
 
+.mobile-course-items:hover {
+    background-color: #696969;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 2s;
+}
+
  /*--container4--*/
 .thesis-container {
   display: flex;
 }
 .item-video {
   width: 60%;
+  padding-right: 1rem;
 }
 
 video {
@@ -216,7 +297,7 @@ video {
 }
 
 .video-description {
-  padding: 1.5rem 0 2rem 0;
+  padding: 1.5rem 1rem 2rem 0;
 }
 
 .video-description h1{
@@ -236,6 +317,13 @@ video {
   padding: 0 1rem 1rem 1rem;
 }
 
+.feature-item1:hover {
+  background-color: #C0C0C0;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 2s;
+}
+
 .feature-description {
   flex-direction: column;
   padding: 0.5rem 0;
@@ -248,6 +336,12 @@ video {
   width: 35%;
   height: auto;
   padding: 1rem;
+}
+.feature-item2:hover {
+  background-color: #C0C0C0;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 2s;
 }
 .thesis-header {
   align-items: center;
@@ -264,6 +358,19 @@ footer  {
   padding: 1rem 1.5rem;
   font-size: 0.75rem;
 }
+footer a  {
+  color:inherit;
+
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer a:active {
+     border: 1px dotted;
+     border-radius: 2px;
+     padding: 2px;
+ }
 /*Responsive-design*/
 
 /*Navigation*/
@@ -303,11 +410,16 @@ footer  {
 }
 /*Mobile*/
 @media only screen and (max-width: 570px) {
+
+  h1 {
+    padding: none;
+  }
+
   h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    line-height: 1;
-    padding: 0 0 0.5rem 0;
+    line-height: 1.2;
+    padding: 2rem 0rem;
   }
   p {
     font-size: 0.8rem;
