@@ -21,6 +21,26 @@ If you would like to customise the web address choose a srvice provider.
 
 * Atom v1.27.0-beta0 (2018-04-18)
 
+## Styles used in this project
+
+### Theme 
+* Silver-light
+
+### Main –colour:
+* #C0C0C0
+
+### Secondary colours: 
+* #424242 - Text
+* #424242 – active links
+* #3B3B3B – buttons (button-active: #696969)
+* #D1D1D1 – mobile-colours
+* feature colours: #8787A7 (active: #3B3B3B)
+
+### Fonts
+* 'Quicksand', sans-serif;
+* 'Raleway', sans-serif;
+
+
 ## Contributing
 
 All images supplied by @Codecademy
